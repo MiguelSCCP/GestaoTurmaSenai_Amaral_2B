@@ -3,7 +3,7 @@
 @import"cores.css";
  @font-face {
     font-family: Mario;
-    src: url(/fontes/SuperMario256.ttf);
+    src: url(/fontes/Mario.ttf);
  }
 
  body{
@@ -11,10 +11,7 @@
     font-family:  Mario;
     background-color:  var(--shadow-grey);
  }
- @font-face{
-    font-family: mario;
-    src: url('../fontes/Mario.ttf');
-}
+ 
 
 body{
     background-color: #2f2b31;
