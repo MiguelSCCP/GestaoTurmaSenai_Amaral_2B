@@ -3,7 +3,7 @@
 @import"cores.css";
 @font-face{
     font-family: mario;
-    src: url('../fontes/Mario.ttf');
+    src: url('../fontes/mario.ttf');
 }
 
  body{
