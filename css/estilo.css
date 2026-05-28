@@ -6,45 +6,18 @@
     src: url('../fontes/mario.ttf');
 }
 
- body{
-    color: var(--apricot-cream);
-    font-family:  Mario;
-    background-color:  var(--shadow-grey);
- }
- 
-
 body{
-    background-color: #2f2b31;
+    background-color: black;
+    color: white;
+    font-family: mario;
 }
 
 h1{
-    font-family: mario;
-    color: #f7c97c;
     font-size: 60px;
 }
 
-h2{
-    font-family: mario;
-    color: #f7c97c;
-    font-size: 40px;
-}
-
-nav{
-    background-color: #3a363d;
-    padding: 20px;
-}
-
-nav ul{
-    list-style: none;
-}
-
-nav ul li{
-    margin-bottom: 10px;
-}
-
-nav ul li a{
-    color: blue;
-    text-decoration: none;
+a{
+    color: yellow;
     font-size: 30px;
-    font-weight: bold;
+    text-decoration: none;
 }
