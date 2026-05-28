@@ -1,0 +1,13 @@
+@charset "UTF-8";
+@import "reset.css";
+@import"cores.css";
+ @font-face {
+    font-family: Mario;
+    src: url(/fontes/SuperMario256.ttf);
+ }
+
+ body{
+    color: var(--apricot-cream);
+    font-family:  Mario;
+    background-color:  var(--shadow-grey);
+ }
