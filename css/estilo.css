@@ -1,10 +1,10 @@
 @charset "UTF-8";
 @import  "reset.css";
 @import"cores.css";
- @font-face {
-    font-family: Mario;
-    src: url(/fontes/Mario.ttf);
- }
+@font-face{
+    font-family: mario;
+    src: url('../fontes/Mario.ttf');
+}
 
  body{
     color: var(--apricot-cream);
