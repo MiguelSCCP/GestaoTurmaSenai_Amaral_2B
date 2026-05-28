@@ -11,7 +11,7 @@ img{
 
 h1{
 
-    font-family: Georgia,;
+     font-family: mario;
     text-align: center;
     font-size: 40px;
     text-decoration: underline;
@@ -29,8 +29,7 @@ p {
 }
 
 h2{
-   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    text-align: center;
+    font-family: mario;
     font-size: 40px;
     text-decoration: underline;
     color: rgb(0, 0, 0);
@@ -39,7 +38,7 @@ h2{
 
 ol,ul,dl,dd,dt{
 
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: mario;
     font-size: 40px;
     color: rgb(0, 0, 0);
 }
