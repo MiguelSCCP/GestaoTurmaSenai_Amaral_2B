@@ -2,7 +2,7 @@
 @import  "reset.css";
 @import"cores.css";
 @font-face{
-    font-family: mario;
+    font-family:mario;
     src: url('../fontes/mario.ttf');
 }
 
@@ -14,6 +14,7 @@ body{
 
 h1{
     font-size: 60px;
+   font-family: mario;
 }
 
 a{
