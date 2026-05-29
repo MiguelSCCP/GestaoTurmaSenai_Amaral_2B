@@ -1,57 +1,127 @@
+
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
-
-    <!-- TAG DO MEU SITE-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Esse é uma pagina modelo">
-    <meta name="keywords" content="sites,web desenvolvimento backend">
-    <meta name="author" content="Segura">
-    <title>HOME: Titulo Principal</title>
-      <link rel="icon" href="https://i.pinimg.com/736x/d4/e0/bd/d4e0bde674fbb4d88ae339a2febe724b.jpg" type="image/x-icon">
-    <link rel="stylesheet" href="/css/estilo.css">
-    <img src="/img/timao.jpg" alt="todo poderoso timao">
- 
+    <title>Corinthians</title>
 
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        body{
+            background-color: #111;
+            color: white;
+        }
+
+        header{
+            background-color: black;
+            padding: 20px;
+            text-align: center;
+            border-bottom: 4px solid red;
+        }
+
+        nav{
+            margin-top: 10px;
+        }
+
+        nav a{
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+
+        nav a:hover{
+            color: red;
+        }
+
+        main{
+            padding: 30px;
+        }
+
+        section{
+            margin-bottom: 30px;
+            background-color: #1c1c1c;
+            padding: 20px;
+            border-radius: 10px;
+        }
+
+        h1, h2{
+            margin-bottom: 15px;
+        }
+
+        article{
+            margin-top: 15px;
+        }
+
+        aside{
+            background-color: #222;
+            padding: 20px;
+            border-left: 5px solid red;
+            margin-top: 20px;
+        }
+
+        footer{
+            background-color: black;
+            text-align: center;
+            padding: 15px;
+            border-top: 4px solid red;
+        }
+    </style>
 </head>
 <body>
+
     <header>
-        <nav>
-            <ul>
-                <li>
-                    <a href="#">home</a>
-
-                </li>
-                <li>
-                    <a href="#">Contato</a>
-
-                </li>
-                <li>
-                    <a href="#">noticias</a>
-
-                </li>
-
-
-            </ul>
-
-
-
-        </nav>
-
+        <h1>Sport Club Corinthians Paulista</h1>
 
     </header>
-  <div>
- <picture>
- 
-    <img src="/img/banner.jpg" alt="banner" width="100%" height="300px">
 
+    <main>
 
- </picture>
- </div>
+        <section>
+            <h2>Sobre o Corinthians</h2>
 
-    <h1> bem vindo ao site  do timao </h1>
-    <h2> isso e um exeplo de pagina html</h2>
+            <article>
+                <p>
+                    O Corinthians é um dos maiores clubes do Brasil, fundado em 1910 na cidade de São Paulo.
+                    A torcida conhecida como "Fiel" acompanha o time em todos os momentos.
+                </p>
+            </article>
+        </section>
+
+        <section>
+            <h2>Principais Títulos</h2>
+
+            <article>
+                <ul>
+                    <li>Mundial de Clubes</li>
+                    <li>Copa Libertadores</li>
+                    <li>Campeonato Brasileiro</li>
+                    <li>Copa do Brasil</li>
+                </ul>
+            </article>
+        </section>
+
+        <aside>
+            <h2>Curiosidade</h2>
+
+            <p>
+                O estádio oficial do Corinthians é a Neo Química Arena,
+                localizada em São Paulo.
+            </p>
+        </aside>
+
+    </main>
+
+    <footer>
+        <p>Site criado em HTML semântico e CSS - Corinthians</p>
+    </footer>
+
 </body>
-
 </html>
