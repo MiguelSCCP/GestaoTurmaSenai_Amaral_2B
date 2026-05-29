@@ -3,91 +3,238 @@
 
 <head>
     <meta charset="UTF-8">
-    <h1> bem vindo ao site do timao </h1>
-    <h2> isso e um exeplo de pagina html</h2>
 
-    <!-- TAG DO MEU SITE-->
+    <!-- TAG DO SITE -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Esse é uma pagina modelo">
     <meta name="keywords" content="sites,web desenvolvimento backend">
     <meta name="author" content="miguel">
-    <title>HOME: Titulo Principal</title>
-    <link rel="icon" href="https://i.pinimg.com/736x/d4/e0/bd/d4e0bde674fbb4d88ae339a2febe724b.jpg" type="image/x-icon">
-    <link rel="stylesheet" href="css/estilo.css">
-    <img src="img/timao.jpg" alt="todo poderoso timao">
 
+    <title>HOME: Titulo Principal</title>
+
+    <!-- ICONE -->
+    <link rel="icon"
+        href="https://i.pinimg.com/736x/d4/e0/bd/d4e0bde674fbb4d88ae339a2febe724b.jpg">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/estilo.css">
 
 </head>
 
 <body>
+
     <header>
-        <nav>
+
+        <h1>bem vindo ao site do timao</h1>
+
+        <h2>isso e um exeplo de pagina html</h2>
+
+        <!-- FOTO -->
+        <img src="img/timao.jpg" alt="todo poderoso timao">
+
+        <!-- MENU -->
+        <nav class="menu-principal">
+
             <ul>
+
                 <li>
                     <a href="#">home</a>
-
                 </li>
+
                 <li>
                     <a href="#">Contato</a>
-
                 </li>
+
                 <li>
                     <a href="#">noticias</a>
-
                 </li>
-
 
             </ul>
 
-
-
         </nav>
 
-
     </header>
+
+    <!-- BANNER -->
     <div>
+
         <picture>
 
-            <img src="img/banner.jpg" alt="banner" width="100%" height="300px">
-
+            <img src="img/banner.jpg"
+                alt="banner"
+                width="100%"
+                height="300px">
 
         </picture>
+
     </div>
 
-    <div class="senai mk"></div>
-        <section class="senai mk">
-            <h1> SENAI MAIRINQUE</h1>
-            <div class="turmas">
-                <section class="sala turma amaral">
-                    <h2> TURMAS - AMARAL - 2A</h2>
-                    <ul>
-                        <li>Gabriel</li>
-                        <li> Murilo </li>
-                        <li> misael</li>
-                    </ul>
-                </section>
+    <!-- SENAI -->
+    <section class="senai mk">
 
-                <section class="sala turma amaral">
-                    <h2> TURMAS - AMARAL - 2B</h2>
-                    <ul>
-                        <li>miguel</li>
-                        <li>Ruan</li>
-                        <li> samuel </li>
+        <h1>SENAI MAIRINQUE</h1>
+
+        <div class="turmas">
+
+            <!-- TURMA 2A -->
+            <section class="sala turma amaral">
+
+                <h2>TURMAS - AMARAL - 2A</h2>
+
+                <ul class="lista-alunos lellis" id="alunoslellis">
+
+                    <li>Gabriel</li>
+                    <li>Murilo</li>
+                    <li>misael</li>
+                    <li>joao</li>
+                    <li>alberto</li>
+
+                </ul>
+
+                <footer>
+
+                    <div>
+
+                        Quantidade de alunos:
+
+                        <p>
+                            <mark>5</mark>
+                        </p>
+
+                    </div>
+
+                </footer>
+
+            </section>
+
+            <!-- TURMA 2B -->
+            <section class="sala turma amaral">
+
+                <h2>TURMAS - AMARAL - 2B</h2>
+
+                <ul class="lista-alunos lellis" id="alunoslellis2">
+
+                    <li>miguel</li>
+                    <li>Ruan</li>
+                    <li>samuel</li>
+                    <li>vandrlei</li>
+                    <li>jonas</li>
+                    <li>greg</li>
+
+                </ul>
+
+                <footer>
+
+                    <div>
+
+                        Quantidade de alunos:
+
+                        <p>
+                            <mark>6</mark>
+                        </p>
+
+                    </div>
+
+                </footer>
+
+            </section>
+
+        </div>
+
+    </section>
+
+    
+    <section headingoffset="1">
+
+        <section>
+
+            <h1>
+                TURMAS DE
+                <mark>
+                    <abbr title="DESENVOLVIMENTO DE SISTEMAS">DS</abbr>
+                </mark>
+                NO SENAI-MK
+            </h1>
+
+            <section>
+
+                <header>
+
+                    <h2>LELLIS ITO - A</h2>
+
+                </header>
+
+                <div>
+
+                    <ul class="lista-alunos lellis" id="alunoslellisItoA">
+
+                        <li>Maísa</li>
+                        <li>rafa</li>
+                        <li>jose</li>
+
                     </ul>
-                </section>
-            </div>
+
+                </div>
+
+                <footer>
+
+                    <div>
+
+                        Quantidades de Alunos:
+
+                        <p id="qtdAlunosLellisItoA">
+
+                            <mark>3</mark>
+
+                        </p>
+
+                    </div>
+
+                </footer>
+
+            </section>
+
+             <section>
+
+                <header>
+
+                    <h2>LELLIS ITO - B</h2>
+
+                </header>
+
+                <div>
+
+                    <ul class="lista-alunos lellis" id="alunoslellisItoA">
+
+                        <li>Maísa</li>
+                        <li>paula</li>
+                        <li>fernado</li>
+
+                    </ul>
+
+                </div>
+
+                <footer>
+
+                    <div>
+
+                        Quantidades de Alunos:
+
+                        <p id="qtdAlunosLellisItoA">
+
+                            <mark>3</mark>
+
+                        </p>
+
+                    </div>
+
+                </footer>
+
+            </section>
+
         </section>
 
-
-
-
-
-    </div>
-
-
-    </div>
-
-
+    </section>
 
 </body>
 
